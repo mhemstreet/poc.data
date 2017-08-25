@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace poc.repo
 {
-    public class Class1
+    public class GenericRepository
     {
+
     }
 }

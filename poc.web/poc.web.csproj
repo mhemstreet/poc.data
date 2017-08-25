@@ -261,6 +261,10 @@
       <Project>{f2aae92d-a14b-4dfc-b3a9-baea259c092d}</Project>
       <Name>poc.data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\poc.repo\poc.repo.csproj">
+      <Project>{c11f294a-9133-447b-90e9-f2d57f220115}</Project>
+      <Name>poc.repo</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
