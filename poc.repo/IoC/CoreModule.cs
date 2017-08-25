@@ -1,17 +1,16 @@
 ﻿using Autofac;
-using Autofac.Integration.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace poc.web.IoC
+namespace poc.repo.IoC
 {
-    public class WebModule : Module
+    public class CoreModule: Module
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterControllers(typeof(MvcApplication).Assembly);
         }
     }
 }
